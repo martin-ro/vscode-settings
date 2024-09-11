@@ -145,11 +145,11 @@
      * Vim
      */
     "vim.leader": "<space>",
-    "vim.vimrc.enable": false,
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "$HOME/.vscodevimrc",
     "vim.handleKeys": {
 		"<C-n>": false,
 	},
-    // "vim.vimrc.path": "$HOME/.vscodevimrc",
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
