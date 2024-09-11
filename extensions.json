@@ -22,7 +22,7 @@
     {
         "identifier": "Llam4u.nerdtree",
         "version": "1.2.1",
-        "enabled": true
+        "enabled": false
     },
     {
         "identifier": "rebornix.toggle",
