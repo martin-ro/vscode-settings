@@ -140,7 +140,7 @@
     "terminal.integrated.tabs.enabled": true,
     "terminal.integrated.tabs.title": "${sequence}",
     "settings-repository.repository": "https://github.com/martin-ro/vscode-settings.git",
-    "terminal.integrated.scrollback": 100000000,
+    "terminal.integrated.shellSize.default": 25,
     /**
      * Vim
      */
