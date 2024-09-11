@@ -1,0 +1,42 @@
+[
+    {
+        "identifier": "amazonwebservices.codewhisperer-for-command-line-companion",
+        "version": "1.4.2",
+        "enabled": true
+    },
+    {
+        "identifier": "GitHub.github-vscode-theme",
+        "version": "6.3.4",
+        "enabled": true
+    },
+    {
+        "identifier": "k--kato.intellij-idea-keybindings",
+        "version": "1.7.2",
+        "enabled": true
+    },
+    {
+        "identifier": "Katsute.settings-repository",
+        "version": "1.0.10",
+        "enabled": true
+    },
+    {
+        "identifier": "rebornix.toggle",
+        "version": "0.0.2",
+        "enabled": true
+    },
+    {
+        "identifier": "vscodevim.vim",
+        "version": "1.28.1",
+        "enabled": true
+    },
+    {
+        "identifier": "Vue.volar",
+        "version": "2.1.6",
+        "enabled": true
+    },
+    {
+        "identifier": "wayou.vscode-icons-mac",
+        "version": "7.25.3",
+        "enabled": true
+    }
+]

@@ -1,0 +1,108 @@
+[
+    /**
+     * Terminal
+     */
+
+    {
+        "key": "ctrl+2",
+        "mac": "cmd+2",
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus",
+        "intellij": "Opens and focuses corresponding tool window (Terminal)"
+    },
+    {
+        "key": "ctrl+2",
+        "mac": "cmd+2",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminalFocus",
+        "intellij": "Close corresponding tool window (Terminal)"
+    },
+    {
+        "key": "ctrl+n",
+        "when": "terminalFocus",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+w",
+        "when": "terminalFocus",
+        "command": "workbench.action.terminal.kill"
+    },
+
+
+    /**
+     * Source control (Git)
+     */
+
+    {
+        "key": "ctrl+0",
+        "mac": "cmd+0",
+        "command": "workbench.view.scm",
+        "when": "activeViewlet != 'workbench.view.scm'",
+        "intellij": "Open corresponding tool window (Git)"
+    },
+    {
+        "key": "ctrl+0",
+        "mac": "cmd+0",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "activeViewlet == 'workbench.view.scm'",
+        "intellij": "Close corresponding tool window (Git)"
+    },
+    {
+        "key": "ctrl+0",
+        "mac": "cmd+0",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "activeViewlet == 'workbench.view.scm'",
+        "intellij": "Close corresponding tool window (Git)"
+    },
+
+
+    /**
+    * QoL shortcuts
+    **/
+
+    {
+        "key": "Shift+ctrl+w",
+        "command": "workbench.action.closeAllEditors"
+    },
+    {
+        "key": "Shift+ctrl+f12",
+        "command": "workbench.action.closeSidebar"
+    },
+    {
+        "key": "ctrl+alt+x",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.closeAllEditors",
+                "workbench.action.closeSidebar",
+                "workbench.action.terminal.kill",
+                "workbench.action.terminal.killAll",
+                "workbench.action.closePanel"
+            ]
+        }
+    },
+
+
+    /**
+    * Toggle Font Size
+    **/
+
+    {
+        "key": "Shift+Alt+s",
+        "command": "toggle",
+        "when": "editorTextFocus",
+        "args": {
+            "id": "fontSize",
+            "value": [
+                {
+                    "editor.fontSize": 18,
+                    "editor.lineHeight": 45
+                },
+                {
+                    "editor.fontSize": 12,
+                    "editor.lineHeight": 0
+                }
+            ]
+        }
+    },
+]

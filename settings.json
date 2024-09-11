@@ -1,0 +1,200 @@
+{
+    "terminal.integrated.env.osx": {
+        "Q_NEW_SESSION": "1"
+    },
+
+
+    /**
+     *
+     * Editor defaults
+     *
+     **/
+
+     // Ask before exit
+     "window.confirmBeforeClose": "always",
+
+     // Disable sound
+    "editor.accessibilitySupport": "off",
+
+    // Copy and past without style
+    "editor.copyWithSyntaxHighlighting": false,
+
+    // Controls whether leading and trailing whitespace is ignored in Source Control diff gutter decorations
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    // Whether copying without selection should copy the current line
+    "editor.emptySelectionClipboard": false,
+
+    // Globally enable or disable preview editors
+    "workbench.editor.enablePreview": false,
+
+    // Open new windows with the same size as current
+    "window.newWindowDimensions": "inherit",
+
+    // Will trim trailing whitespace when saving a file
+    "files.trimTrailingWhitespace": true,
+
+    // Controls whether the diff editor shows the diff side by side or inline.
+    "diffEditor.renderSideBySide": true,
+
+    // Controls whether snippets are shown with other suggestions and how they are sorted
+    "editor.snippetSuggestions": "top",
+
+    // Controls whether Tab Size and Insert Space will be automatically detected when a file is opened
+    "editor.detectIndentation": false,
+
+    // Disables creating a new space when going full-screen on MacOS
+    "window.nativeFullScreen": false,
+
+    // Insert a final new line when saving
+    "files.insertFinalNewline": true,
+
+    // Trim all new lines after the final new line
+    "files.trimFinalNewlines": true,
+
+
+    /**
+     *
+     * Silence the noise
+     *
+     **/
+
+    // Disable sticky header when scrolling
+    "editor.stickyScroll.enabled": false,
+
+    // Hide indent lines in file explorer
+    "workbench.tree.renderIndentGuides": "none",
+
+    // Hide folding in left gutter
+    "editor.folding": false,
+
+    // Remove glyph margin in left gutter
+    "editor.glyphMargin": false,
+
+    // Hide the activity bar
+    "workbench.activityBar.location": "hidden",
+
+    // Hide layout control
+    "workbench.layoutControl.enabled": false,
+
+    // Hide the Command Center (search bar etc.)
+    "window.commandCenter": false,
+
+    // Location of the primary side bar and activity bar
+    "workbench.sideBar.location": "right",
+
+    // Show the status bar at the bottom
+    "workbench.statusBar.visible": true,
+
+    // Whether opened editors should show individual tabs
+    "workbench.editor.showTabs": "multiple",
+
+    // Hides the mini map
+    "editor.minimap.enabled": false,
+
+    // Hide line numbers
+    "editor.lineNumbers": "off",
+
+    // Disable breadcrumbs underneath tabs
+    "breadcrumbs.enabled": false,
+
+    // Disables Diff decorations
+    "scm.diffDecorations": "none",
+
+    // Disable hover tooltips
+    "editor.hover.enabled": false,
+
+    // Disable higlighting of matching brackets
+    "editor.matchBrackets": "never",
+
+    // Disable watermark tips when no editor is open
+    "workbench.tips.enabled": false,
+
+    // Don't render inline colors decorators and picker
+    "editor.colorDecorators": false,
+
+    // Disable decorations for Git contributes
+    "git.decorations.enabled": false,
+
+    // Controls which editor is shown if none is restored from previous session
+    "workbench.startupEditor": "none",
+
+    // Disable lightbulb actions
+    "editor.lightbulb.enabled": "off",
+
+    // Don't highlight matches similar to selection
+    "editor.selectionHighlight": false,
+
+    // Disable border around overview ruler
+    "editor.overviewRulerBorder": false,
+
+    // Don't highlight current line
+    "editor.renderLineHighlight": "none",
+
+    // Don't highlight occurence across multiple open files
+    "editor.occurrencesHighlight": "off",
+
+    // Don't show warnings and errors on files and folders
+    "problems.decorations.enabled": false,
+
+    // Don't render control characters
+    "editor.renderControlCharacters": false,
+
+    // Hide cursor in overview ruler
+    "editor.hideCursorInOverviewRuler": true,
+
+    // Diable peek when multiple definitions exist for "Go to References" command
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+
+    // Disable preview editors when opened from Quick Open
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+
+    // "Go to References" command behaviour when multiple definitions exist
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+
+    /**
+     *
+     * Typography & UI
+     *
+     **/
+
+    // Theme
+    "workbench.colorTheme": "GitHub Light Default",
+
+    // Font
+    "editor.fontFamily": "Hack Nerd Font Mono",
+    "editor.fontSize": 18,
+    "editor.lineHeight": 45,
+    "editor.suggestFontSize": 15,
+    "editor.suggestLineHeight": 28,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.5,
+    "editor.guides.indentation": false,
+
+    // Colors
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#f803fc",
+        "editorCursor.background": "#ffffff",
+        "editor.cursorStyle": "line",
+        "editor.cursorWidth": 4,
+        "terminalCursor.foreground": "#7ee356",
+        "terminal.background":"#0f172a",
+        "terminal.foreground": "#7ee356",
+    },
+
+    // Icon theme in file explorer
+    "workbench.iconTheme": "vscode-icons-mac",
+
+    // Watermark when no editor is open
+
+    /**
+     * Terminal
+     */
+     "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.tabs.title": "${sequence}",
+    "settings-repository.repository": "https://github.com/martin-ro/vscode-settings.git"
+}
