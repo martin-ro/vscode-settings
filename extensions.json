@@ -15,11 +15,6 @@
         "enabled": true
     },
     {
-        "identifier": "Katsute.settings-repository",
-        "version": "1.0.10",
-        "enabled": true
-    },
-    {
         "identifier": "rebornix.toggle",
         "version": "0.0.2",
         "enabled": false
