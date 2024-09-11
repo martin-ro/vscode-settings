@@ -20,6 +20,11 @@
         "enabled": true
     },
     {
+        "identifier": "Llam4u.nerdtree",
+        "version": "1.2.1",
+        "enabled": true
+    },
+    {
         "identifier": "rebornix.toggle",
         "version": "0.0.2",
         "enabled": true
