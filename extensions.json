@@ -5,11 +5,6 @@
         "enabled": true
     },
     {
-        "identifier": "asvetliakov.vscode-neovim",
-        "version": "1.18.11",
-        "enabled": true
-    },
-    {
         "identifier": "GitHub.github-vscode-theme",
         "version": "6.3.4",
         "enabled": true
@@ -32,11 +27,6 @@
     {
         "identifier": "rebornix.toggle",
         "version": "0.0.2",
-        "enabled": true
-    },
-    {
-        "identifier": "vscodevim.vim",
-        "version": "1.28.1",
         "enabled": true
     },
     {
