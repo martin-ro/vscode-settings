@@ -8,67 +8,6 @@
         "command": "list.toggleExpand",
         "when": "listFocus && !inputFocus"
     },
-    // Navigate the tree with hjkl
-    {
-        "key": "h",
-        "command": "list.collapse",
-        "when": "explorerViewletFocus && !inputFocus"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "workbench.action.quickOpenNavigateNext",
-        "when": "inQuickOpen"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "workbench.action.quickOpenNavigatePrevious",
-        "when": "inQuickOpen"
-    },
-    {
-        "key": "ctrl+h",
-        "command": "workbench.action.quickOpenNavigateBack",
-        "when": "inQuickOpen"
-    },
-    {
-        "key": "ctrl+l",
-        "command": "workbench.action.quickOpenNavigateNext",
-        "when": "inQuickOpen"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "selectNextSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "selectPrevSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "list.focusDown",
-        "when": "listFocus && !inputFocus"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "list.focusUp",
-        "when": "listFocus && !inputFocus"
-    },
-    {
-        "key": "l",
-        "command": "list.expand",
-        "when": "explorerViewletFocus && !inputFocus"
-    },
-    {
-        "key": "j",
-        "command": "list.focusDown",
-        "when": "explorerViewletFocus && !inputFocus"
-    },
-    {
-        "key": "k",
-        "command": "list.focusUp",
-        "when": "explorerViewletFocus && !inputFocus"
-    },
     /**
      * Terminal
      */

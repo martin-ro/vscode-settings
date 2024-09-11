@@ -5,6 +5,11 @@
         "enabled": true
     },
     {
+        "identifier": "asvetliakov.vscode-neovim",
+        "version": "1.18.11",
+        "enabled": true
+    },
+    {
         "identifier": "GitHub.github-vscode-theme",
         "version": "6.3.4",
         "enabled": true
