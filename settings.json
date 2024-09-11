@@ -111,7 +111,7 @@
      *
      **/
     // Theme
-    "workbench.colorTheme": "Tokyo Night Light Frameless",
+    "workbench.colorTheme": "Tokyo Night",
     // Font
     "editor.fontFamily": "Hack Nerd Font Mono",
     "editor.fontSize": 18,

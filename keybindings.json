@@ -7,6 +7,26 @@
         "command": "list.toggleExpand",
         "when": "listFocus && !inputFocus"
     },
+    {
+        "key": "h",
+        "command": "list.collapse",
+        "when": "explorerViewletFocus && !inputFocus"
+      },
+      {
+        "key": "l",
+        "command": "list.expand",
+        "when": "explorerViewletFocus && !inputFocus"
+      },
+      {
+        "key": "j",
+        "command": "list.focusDown",
+        "when": "explorerViewletFocus && !inputFocus"
+      },
+      {
+        "key": "k",
+        "command": "list.focusUp",
+        "when": "explorerViewletFocus && !inputFocus"
+      },
     /**
      * Terminal
      */
@@ -64,10 +84,6 @@
     {
         "key": "Shift+ctrl+w",
         "command": "workbench.action.closeAllEditors"
-    },
-    {
-        "key": "Shift+ctrl+f12",
-        "command": "workbench.action.closeSidebar"
     },
     {
         "key": "ctrl+alt+x",
