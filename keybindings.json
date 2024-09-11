@@ -2,7 +2,6 @@
     /**
      * Terminal
      */
-
     {
         "key": "ctrl+2",
         "mac": "cmd+2",
@@ -27,12 +26,9 @@
         "when": "terminalFocus",
         "command": "workbench.action.terminal.kill"
     },
-
-
     /**
      * Source control (Git)
      */
-
     {
         "key": "ctrl+0",
         "mac": "cmd+0",
@@ -54,12 +50,9 @@
         "when": "activeViewlet == 'workbench.view.scm'",
         "intellij": "Close corresponding tool window (Git)"
     },
-
-
     /**
     * QoL shortcuts
     **/
-
     {
         "key": "Shift+ctrl+w",
         "command": "workbench.action.closeAllEditors"
@@ -81,12 +74,9 @@
             ]
         }
     },
-
-
     /**
     * Toggle Font Size
     **/
-
     {
         "key": "Shift+Alt+s",
         "command": "toggle",
