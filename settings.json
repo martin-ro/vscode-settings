@@ -194,7 +194,75 @@
     /**
      * Terminal
      */
-     "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.tabs.enabled": true,
     "terminal.integrated.tabs.title": "${sequence}",
-    "settings-repository.repository": "https://github.com/martin-ro/vscode-settings.git"
+    "settings-repository.repository": "https://github.com/martin-ro/vscode-settings.git",
+
+    /**
+     * Vim
+     */
+    "vim.leader": "<space>",
+    "vim.vimrc.enable": true,
+    // "vim.vimrc.path": "$HOME/.vscodevimrc",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "v", "v"],
+            "commands": ["workbench.action.splitEditorRight"]
+        },
+        {
+            "before": ["<leader>", "h", "h"],
+            "commands": ["workbench.action.splitEditorDown"]
+        },
+        {
+            "before": ["<leader>", "o"],
+            "commands": [
+              "editor.action.insertLineAfter",
+              "vim.cmd",
+              "normal! k"
+            ]
+        },
+        {
+            "before": ["<leader>", "O"],
+            "commands": [
+              "editor.action.insertLineBefore",
+              "vim.cmd",
+              "normal! j"
+            ]
+        },
+        // Adding files to Harpoon
+    {
+        "before": ["<leader>", "1"],
+        "commands": ["vscode-harpoon.addEditor"]
+      },
+      {
+        "before": ["<leader>", "2"],
+        "commands": ["vscode-harpoon.addEditor"]
+      },
+      {
+        "before": ["<leader>", "3"],
+        "commands": ["vscode-harpoon.addEditor"]
+      },
+      {
+        "before": ["<leader>", "4"],
+        "commands": ["vscode-harpoon.addEditor"]
+      },
+
+      // Navigating to Harpoon files
+      {
+        "before": ["<leader>", "<leader>", "1"],
+        "commands": ["vscode-harpoon.gotoEditor1"]
+      },
+      {
+        "before": ["<leader>", "<leader>", "2"],
+        "commands": ["vscode-harpoon.gotoEditor2"]
+      },
+      {
+        "before": ["<leader>", "<leader>", "3"],
+        "commands": ["vscode-harpoon.gotoEditor3"]
+      },
+      {
+        "before": ["<leader>", "<leader>", "4"],
+        "commands": ["vscode-harpoon.gotoEditor4"]
+      }
+    ]
 }
