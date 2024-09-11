@@ -107,11 +107,11 @@
     "editor.gotoLocation.multipleTypeDefinitions": "goto",
     /**
      *
-     * Typography & UI
+     * Theme & UI
      *
      **/
     // Theme
-    "workbench.colorTheme": "Tokyo Night",
+    "workbench.colorTheme": "GitHub Light Default",
     // Font
     "editor.fontFamily": "Hack Nerd Font Mono",
     "editor.fontSize": 18,
@@ -133,7 +133,8 @@
     },
     // Icon theme in file explorer
     "workbench.iconTheme": "vscode-icons-mac",
-    // Watermark when no editor is open
+    // Don't scroll beyon file end
+    "editor.scrollBeyondLastLine": false,
     /**
      * Terminal
      */
@@ -270,5 +271,6 @@
                 "vscode-harpoon.gotoEditor4"
             ]
         }
-    ]
+    ],
+
 }
