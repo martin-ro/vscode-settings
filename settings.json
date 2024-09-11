@@ -105,13 +105,6 @@
     // "Go to References" command behaviour when multiple definitions exist
     "editor.gotoLocation.multipleImplementations": "goto",
     "editor.gotoLocation.multipleTypeDefinitions": "goto",
-    /**
-     *
-     * Theme & UI
-     *
-     **/
-    // Theme
-    "workbench.colorTheme": "GitHub Light Default",
     // Font
     "editor.fontFamily": "Hack Nerd Font Mono",
     "editor.fontSize": 18,
@@ -194,4 +187,5 @@
             ]
         },
     ],
+    "workbench.colorTheme": "GitHub Light Default",
 }
