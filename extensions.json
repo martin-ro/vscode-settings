@@ -30,11 +30,6 @@
         "enabled": true
     },
     {
-        "identifier": "tobias-z.vscode-harpoon",
-        "version": "1.5.0",
-        "enabled": true
-    },
-    {
         "identifier": "vscodevim.vim",
         "version": "1.28.1",
         "enabled": true
