@@ -5,8 +5,8 @@
         "enabled": true
     },
     {
-        "identifier": "aurum77.nerd-tree",
-        "version": "1.2.2",
+        "identifier": "enkia.tokyo-night",
+        "version": "1.0.9",
         "enabled": true
     },
     {
@@ -22,6 +22,11 @@
     {
         "identifier": "Katsute.settings-repository",
         "version": "1.0.10",
+        "enabled": true
+    },
+    {
+        "identifier": "MagdalenaLipka.tokyo-night-frameless",
+        "version": "0.1.9",
         "enabled": true
     },
     {

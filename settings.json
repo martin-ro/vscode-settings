@@ -111,7 +111,7 @@
      *
      **/
     // Theme
-    "workbench.colorTheme": "GitHub Light Default",
+    "workbench.colorTheme": "Tokyo Night Light Frameless",
     // Font
     "editor.fontFamily": "Hack Nerd Font Mono",
     "editor.fontSize": 18,
