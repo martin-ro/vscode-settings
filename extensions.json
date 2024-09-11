@@ -12,7 +12,7 @@
     {
         "identifier": "k--kato.intellij-idea-keybindings",
         "version": "1.7.2",
-        "enabled": false
+        "enabled": true
     },
     {
         "identifier": "Katsute.settings-repository",
@@ -32,6 +32,6 @@
     {
         "identifier": "wayou.vscode-icons-mac",
         "version": "7.25.3",
-        "enabled": true
+        "enabled": false
     }
 ]
