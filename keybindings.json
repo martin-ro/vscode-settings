@@ -85,6 +85,11 @@
     /**
     * QoL shortcuts
     **/
+    // Close sidebar
+    {
+        "key": "Shift+ctrl+f12",
+        "command": "workbench.action.closeSidebar"
+    },
     // Active editor when escaping file explorer and terminal
     {
         "key": "escape",
