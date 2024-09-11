@@ -2,31 +2,33 @@
     /**
      * File Explorer
      */
+    // Enter to open and close directories
     {
         "key": "enter",
         "command": "list.toggleExpand",
         "when": "listFocus && !inputFocus"
     },
+    // Navigate the tree with hjkl
     {
         "key": "h",
         "command": "list.collapse",
         "when": "explorerViewletFocus && !inputFocus"
-      },
-      {
+    },
+    {
         "key": "l",
         "command": "list.expand",
         "when": "explorerViewletFocus && !inputFocus"
-      },
-      {
+    },
+    {
         "key": "j",
         "command": "list.focusDown",
         "when": "explorerViewletFocus && !inputFocus"
-      },
-      {
+    },
+    {
         "key": "k",
         "command": "list.focusUp",
         "when": "explorerViewletFocus && !inputFocus"
-      },
+    },
     /**
      * Terminal
      */
@@ -44,11 +46,13 @@
         "when": "terminalFocus",
         "intellij": "Close corresponding tool window (Terminal)"
     },
+    // New terminal tab
     {
         "key": "ctrl+n",
         "when": "terminalFocus",
         "command": "workbench.action.terminal.new"
     },
+    // Close current terminal tab
     {
         "key": "ctrl+w",
         "when": "terminalFocus",
@@ -81,10 +85,28 @@
     /**
     * QoL shortcuts
     **/
+    // Active editor when escaping file explorer and terminal
+    {
+        "key": "escape",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "!editorTextFocus"
+    },
+    {
+        "key": "escape",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "escape",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    // Close all tabs
     {
         "key": "Shift+ctrl+w",
         "command": "workbench.action.closeAllEditors"
     },
+    // Close all tabs, file explorer and terminal
     {
         "key": "ctrl+alt+x",
         "command": "runCommands",
