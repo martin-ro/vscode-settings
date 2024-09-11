@@ -5,6 +5,11 @@
         "enabled": true
     },
     {
+        "identifier": "aurum77.nerd-tree",
+        "version": "1.2.2",
+        "enabled": true
+    },
+    {
         "identifier": "GitHub.github-vscode-theme",
         "version": "6.3.4",
         "enabled": true
@@ -18,11 +23,6 @@
         "identifier": "Katsute.settings-repository",
         "version": "1.0.10",
         "enabled": true
-    },
-    {
-        "identifier": "Llam4u.nerdtree",
-        "version": "1.2.1",
-        "enabled": false
     },
     {
         "identifier": "rebornix.toggle",
